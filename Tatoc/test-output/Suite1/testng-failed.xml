@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="com.qait.cucumber.ScreenShotplusReporting"/>
+  </listeners>
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.qait.Tatoc.ADVANCEDTATOC">
+        <methods>
+          <include name="init"/>
+          <include name="use_mysql_and_proceed"/>
+          <include name="use_rest_api_to_generate_token"/>
+          <include name="download_file_and_enter_signature_and_proceed"/>
+          <include name="hover_on_menu2_and_click_goNext"/>
+        </methods>
+      </class> <!-- com.qait.Tatoc.ADVANCEDTATOC -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

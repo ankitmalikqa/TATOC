@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="40523" started-at="2017-09-12T10:33:35Z" finished-at="2017-09-12T10:34:15Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="40523" started-at="2017-09-12T10:33:35Z" finished-at="2017-09-12T10:34:15Z">
+      <class name="com.qait.Tatoc.ADVANCEDTATOC">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qait.Tatoc.ADVANCEDTATOC@1bce4f0a]" name="init" is-config="true" duration-ms="2645" started-at="2017-09-12T16:03:35Z" finished-at="2017-09-12T16:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="hover_on_menu2_and_click_goNext()[pri:1, instance:com.qait.Tatoc.ADVANCEDTATOC@1bce4f0a]" name="hover_on_menu2_and_click_goNext" duration-ms="11782" started-at="2017-09-12T16:03:37Z" finished-at="2017-09-12T16:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hover_on_menu2_and_click_goNext -->
+        <test-method status="PASS" signature="use_mysql_and_proceed()[pri:2, instance:com.qait.Tatoc.ADVANCEDTATOC@1bce4f0a]" name="use_mysql_and_proceed" duration-ms="6489" started-at="2017-09-12T16:03:49Z" finished-at="2017-09-12T16:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- use_mysql_and_proceed -->
+        <test-method status="PASS" signature="use_rest_api_to_generate_token()[pri:3, instance:com.qait.Tatoc.ADVANCEDTATOC@1bce4f0a]" name="use_rest_api_to_generate_token" duration-ms="7151" started-at="2017-09-12T16:03:56Z" finished-at="2017-09-12T16:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- use_rest_api_to_generate_token -->
+        <test-method status="PASS" signature="download_file_and_enter_signature_and_proceed()[pri:4, instance:com.qait.Tatoc.ADVANCEDTATOC@1bce4f0a]" name="download_file_and_enter_signature_and_proceed" duration-ms="12428" started-at="2017-09-12T16:04:03Z" finished-at="2017-09-12T16:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download_file_and_enter_signature_and_proceed -->
+        <test-method status="PASS" signature="go()[pri:5, instance:com.qait.Tatoc.ADVANCEDTATOC@1bce4f0a]" name="go" duration-ms="5" started-at="2017-09-12T16:04:15Z" finished-at="2017-09-12T16:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go -->
+      </class> <!-- com.qait.Tatoc.ADVANCEDTATOC -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite1 -->
+</testng-results>
