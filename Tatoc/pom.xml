@@ -19,7 +19,6 @@
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
     <version>3.0.3</version>
-    <scope>test</scope>
 </dependency>
 <dependency>
     <groupId>org.json</groupId>
@@ -30,19 +29,16 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.11</version>
-            <scope>test</scope>
         </dependency>
  <dependency>
 		<groupId>com.jayway.restassured</groupId>
 			<artifactId>rest-assured</artifactId>
 		<version>2.9.0</version>
-		<scope>test</scope>
 				</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
-      <scope>test</scope>
     </dependency>
     <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
